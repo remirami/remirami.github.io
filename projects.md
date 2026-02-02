@@ -24,7 +24,6 @@ Below are selected projects that best represent my current skills and interests 
 - Gauntlet / roguelike encounter mode  
 - More automated rule handling and edge-case validation
 
-*(Optional later: link to repo or demo when you have one)*
 
 ---
 
