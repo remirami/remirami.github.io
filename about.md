@@ -1,5 +1,7 @@
+I enjoy building clean, easy-to-use systems, even though I know that making them truly work well is often more challenging than it first appears. I’m genuinely motivated to keep learning how to balance simplicity for users with a solid and thoughtful underlying structure.
 
-I enjoy building clean, easy-to-use systems, while also recognizing how challenging it is to design them well. Creating something that feels simple to the user often requires careful structure, iteration, and attention to detail - and learning this “art” is something that genuinely motivates me.
-I’m especially drawn to systems-heavy domains, which is why I enjoy tabletop RPGs and role-playing games in general. They combine rules, structure, creativity, and edge cases - many of the same challenges found in real-world software systems.
-I believe testing is one of the most important aspects of software development. Whether it’s unit tests, integration tests, system-level testing, or even early-stage paper prototypes and user feedback, testing helps ensure that software behaves as intended and remains maintainable over time.
-I also see AI as a permanent part of modern software development. While it can be a powerful tool, I believe critical thinking is more important than ever - AI is a good hired hand, not the master.
+I’m drawn to systems-heavy domains like tabletop RPGs, where rules, edge cases, and creativity all come together in ways that feel very similar to real-world software. I find that combination both fascinating and fun to work with.
+
+I see testing as a key part of good software development, whether that’s unit and integration tests, early paper prototypes, or simply getting feedback from real users to improve the experience.
+
+I view AI as a useful tool in development, but one that needs to be guided by strong critical thinking. It’s a good hired hand, not the master.
