@@ -9,7 +9,7 @@ Below are selected projects that best represent my current skills and interests 
 
 **Full-stack, SRD-compliant character and encounter management application**
 
-**Tech:** Next.js · TypeScript · Django REST · PostgreSQL (if you’re using it) · Git
+**Tech:** Next.js · TypeScript · Django REST · PostgreSQL · Git
 
 **Status:** Actively in development
 
@@ -45,7 +45,7 @@ Below are selected projects that best represent my current skills and interests 
 
 ---
 
-## 🌦️ Weather App (Learning Project) *(optional third project)*
+## 🌦️ Weather App (Learning Project)
 
 **Simple web application for exploring and filtering weather data**
 
