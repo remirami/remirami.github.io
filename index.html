@@ -1,118 +1,119 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Portfolio</title>
-<link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <meta name="description" content="Portfolio-sivusto, joka esittelee kehittäjän osaamista web-kehityksen ja käyttöliittymäsuunnittelun parissa.">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
-<header class="hero">
-<div class="hero-inner">
-<div class="brand">Your Name</div>
-<nav class="nav">
-<a href="#projects">Projektit</a>
-<a href="#about">Minusta</a>
-<a href="#contact">Yhteys</a>
-</nav>
-</div>
-
-
-<div class="intro">
-<h1>Hei, olen Etunimi</h1>
-<p class="tagline">Computer Science · Web-kehitys & UI · Innostunut oppija</p>
-<div class="cta-buttons">
-<a href="#projects" class="btn primary">Katso projektit</a>
-<a href="#contact" class="btn secondary">Ota yhteyttä</a>
-</div>
-</div>
-</header>
-
-
-<section id="projects" class="section">
-<h2>Projektit / Projects</h2>
-<div class="grid">
-
-
-<div class="card featured">
-<h3>5e Fantasia App</h3>
-<p>
-<strong>FI:</strong> Selainpohjainen työkalu Dungeons & Dragons 5e -pelaamiseen, joka keskittää hahmonhallinnan,
-loitsut, varusteet ja peliresurssit yhteen käyttöliittymään. Projekti painottaa käytettävyyttä,
-selkeää informaatiokokonaisuutta ja responsiivista suunnittelua.<br/>
-<strong>EN:</strong> A browser-based tool for Dungeons & Dragons 5e that centralizes character management,
-spells, equipment, and game resources into a single interface, emphasizing usability, clear information architecture,
-and responsive design.
-</p>
-<div class="tags">
-<span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span><span>UX</span>
-</div>
-<div class="card-links">
-<a href="#">GitHub</a>
-<a href="#">Live demo</a>
-</div>
-</div>
-
-
-<div class="card">
-<h3>Weather App (Rails)</h3>
-<p>
-<strong>FI:</strong> Ruby on Rails -sovellus, jossa käyttäjä voi suodattaa ja analysoida säätietoja lämpötilarajojen
-perusteella. Toteutuksessa hyödynnettiin Hotwirea dynaamisen käyttöliittymän rakentamiseen ilman raskasta frontend-kehystä.<br/>
-<strong>EN:</strong> A Ruby on Rails application that allows users to filter and analyze weather data based on
-temperature thresholds, built with Hotwire to enable dynamic UI behavior without a heavy frontend framework.
-</p>
-<div class="tags">
-<span>Ruby on Rails</span><span>Hotwire</span><span>MVC</span><span>Web Development</span>
-</div>
-<div class="card-links">
-<a href="#">GitHub</a>
-</div>
-</div>
-
-
-<div class="card">
-<h3>Home Renovation Database (UI Design)</h3>
-<p>
-<strong>FI:</strong> Käyttöliittymäsuunnitelma kotiremonttien hallintaan ja dokumentointiin: budjetointi,
-aikataulutus ja materiaalien seuranta yhdessä näkymässä. Suunnittelu perustuu käyttäjäpolkuihin ja selkeään informaatiokerrostukseen.<br/>
-<strong>EN:</strong> A UI design concept for managing and documenting home renovations, covering budgeting,
-scheduling, and material tracking in a unified view, based on user flows and clear information architecture.
-</p>
-<div class="tags">
-<span>UX</span><span>UI</span><span>Information Architecture</span><span>Prototyping</span><span>Figma</span>
-</div>
-</div>
-
-
-</div>
-</section>
-
-
-<section id="about" class="section alt">
-<h2>Minusta</h2>
-<div class="about-wrapper">
-<p>
-Olen tietojenkäsittelytieteen opiskelija, joka on kiinnostunut web-kehityksestä
-ja käyttöliittymistä. Nautin uuden oppimisesta ja haluan kehittyä erityisesti
-testauksen ja laadukkaan koodin parissa.
-</p>
-<ul class="skills">
-<li>HTML & CSS</li>
-<li>JavaScript</li>
-<li>React & Node.js</li>
-<li>Ruby on Rails (Hotwire)</li>
-<li>Git & GitHub</li>
-</ul>
-</div>
-</section>
-
-
-<section id="contact" class="section">
-<h2>Yhteys</h2>
-<div class="contact-links">
-<a href="https://github.com/yourusername" target="_blank">GitHub</a>
-<a href="#">LinkedIn</a>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="brand">Portfolio.</a>
+            <div class="nav-links">
+                <a href="#projects">Projektit</a>
+                <a href="#about">Minusta</a>
+                <a href="#contact">Yhteys</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="intro">
+                <h1>Hei, olen Jukka.<br>Rakennan digitaalisia kokemuksia.</h1>
+                <p class="tagline">
+                    Tietojenkäsittelytieteen opiskelija ja web-kehittäjä, joka keskittyy puhtaaseen koodiin ja käyttäjälähtöiseen suunnitteluun.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">Katso työt</a>
+                    <a href="#contact" class="btn secondary">Ota yhteyttä</a>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projektit</h2>
+            <div class="projects-grid">
+                
+                <div class="card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        <strong>FI:</strong> Henkilökohtainen portfolio-sivusto, joka on toteutettu puhtaalla HTML:llä ja CSS:llä. 
+                        Painopisteenä on moderni estetiikka, saavutettavuus ja responsiivinen suunnittelu.<br/>
+                        <strong>EN:</strong> A personal portfolio website built with vanilla HTML and CSS, focusing on 
+                        modern aesthetics, accessibility, and responsive design.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span><span>UX</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="#">GitHub</a>
+                        <a href="#">Live demo</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Weather App (Rails)</h3>
+                    <p>
+                        <strong>FI:</strong> Ruby on Rails -sovellus, jossa käyttäjä voi suodattaa ja analysoida säätietoja lämpötilarajojen
+                        perusteella. Toteutuksessa hyödynnettiin Hotwirea dynaamisen käyttöliittymän rakentamiseen ilman raskasta frontend-kehystä.<br/>
+                        <strong>EN:</strong> A Ruby on Rails application that allows users to filter and analyze weather data based on
+                        temperature thresholds, built with Hotwire to enable dynamic UI behavior without a heavy frontend framework.
+                    </p>
+                    <div class="tags">
+                        <span>Ruby on Rails</span><span>Hotwire</span><span>MVC</span><span>Web Development</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Home Renovation Database (UI Design)</h3>
+                    <p>
+                        <strong>FI:</strong> Käyttöliittymäsuunnitelma kotiremonttien hallintaan ja dokumentointiin: budjetointi,
+                        aikataulutus ja materiaalien seuranta yhdessä näkymässä. Suunnittelu perustuu käyttäjäpolkuihin ja selkeään informaatiokerrostukseen.<br/>
+                        <strong>EN:</strong> A UI design concept for managing and documenting home renovations, covering budgeting,
+                        scheduling, and material tracking in a unified view, based on user flows and clear information architecture.
+                    </p>
+                    <div class="tags">
+                        <span>UX</span><span>UI</span><span>Information Architecture</span><span>Prototyping</span><span>Figma</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <h2>Minusta</h2>
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <p>
+                        Olen tietojenkäsittelytieteen opiskelija, joka on kiinnostunut web-kehityksestä
+                        ja käyttöliittymistä. Nautin uuden oppisemesta ja haluan kehittyä erityisesti
+                        testauksen ja laadukkaan koodin parissa.
+                    </p>
+                    <p style="margin-top: 1rem;">
+                        Tavoitteenani on luoda sovelluksia, jotka tekevät monimutkaisista asioista yksinkertaisia ja intuitiivisia käyttää.
+                    </p>
+                </div>
+                <ul class="skills">
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React & Node.js</li>
+                    <li>Ruby on Rails (Hotwire)</li>
+                    <li>Git & GitHub</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Yhteys</h2>
+            <div class="contact-links">
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="mailto:your@email.com">Sähköposti</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Your Name • Rakennettu intohimolla.</p>
+    </footer>
+</body>
 </html>
