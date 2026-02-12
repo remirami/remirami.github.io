@@ -47,6 +47,26 @@
             <h2 data-fi="Projektit" data-en="Projects">Projektit</h2>
             <div class="projects-grid">
                 <div class="card">
+                    <div class="card-image">
+                        <img src="images/5e_charactercreation1.png" alt="Character creation step 1"
+                            class="project-screenshot" data-lightbox>
+                        <img src="images/5e_charactercreation2.png" alt="Character creation step 2"
+                            class="project-screenshot" data-lightbox>
+                        <img src="images/5e_charactercreation3.png" alt="Character creation step 3"
+                            class="project-screenshot" data-lightbox>
+                        <img src="images/5e_charactercreation4.png" alt="Character creation step 4"
+                            class="project-screenshot" data-lightbox>
+                        <img src="images/5e_charactercreation5.png" alt="Character creation step 5"
+                            class="project-screenshot" data-lightbox>
+                        <img src="images/5e_charactercreation6.png" alt="Character creation step 6"
+                            class="project-screenshot" data-lightbox>
+                        <img src="images/5e_charactercreation7.png" alt="Character creation step 7"
+                            class="project-screenshot" data-lightbox>
+                        <img src="images/5e_charactersheet.png" alt="Character sheet view" class="project-screenshot"
+                            data-lightbox>
+                        <img src="images/5e_dashboard.png" alt="Dashboard view" class="project-screenshot"
+                            data-lightbox>
+                    </div>
                     <h3 data-fi="5E Fantasy Manager (Kehityksessä)" data-en="5E Fantasy Manager (In Development)">5E
                         Fantasy Manager (Kehityksessä)</h3>
                     <p data-fi="Selainpohjainen työkalu SRD-yhteensopivaan (System Reference Document) 5e-fantasiapelaamiseen, joka keskittää hahmonhallinnan, loitsut, varusteet ja peliresurssit yhteen käyttöliittymään. Projekti painottaa käytettävyyttä, selkeää tietorakennetta ja responsiivista suunnittelua."
@@ -65,6 +85,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <!-- <div class="card-image">
+                        Add weather app screenshots here
+                    </div> -->
                     <h3>Weather App (Rails)</h3>
                     <p data-fi="Ruby on Rails -sovellus, jossa käyttäjä voi suodattaa ja analysoida säätietoja lämpötilarajojen perusteella. Toteutuksessa hyödynnettiin Hotwirea dynaamisen käyttöliittymän rakentamiseen ilman raskasta frontend-kehystä."
                         data-en="A Ruby on Rails application that allows users to filter and analyze weather data based on temperature thresholds, built with Hotwire to enable dynamic UI behavior without a heavy frontend framework.">
@@ -80,6 +103,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <!-- <div class="card-image">
+                        Add renovation UI screenshots here
+                    </div> -->
                     <h3 data-fi="Kotiremonttitietokanta (UI-suunnittelu)"
                         data-en="Home Renovation Database (UI Design)">Kotiremonttitietokanta (UI-suunnittelu)</h3>
                     <p data-fi="Käyttöliittymäsuunnitelma kotiremonttien hallintaan ja dokumentointiin: budjetointi, aikataulutus ja materiaalien seuranta yhdessä näkymässä. Suunnittelu perustuu käyttäjäpolkuihin ja selkeään informaatiokerrostukseen."
@@ -134,6 +160,15 @@
     <footer>
         <p>© 2026 Jukka Heikkinen</p>
     </footer>
+    <!-- Lightbox overlay -->
+    <div class="lightbox-overlay" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8592;</button>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="">
+        <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next">&#8594;</button>
+        <span class="lightbox-counter" id="lightboxCounter"></span>
+    </div>
     <script src="lang.js"></script>
+    <script src="lightbox.js"></script>
 </body>
 </html>
